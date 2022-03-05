@@ -1,7 +1,7 @@
-# ReadMe generator
+# README Generator
 
   ## Description:
-  This assignment was to create a readme generator using the command line
+  This project is a homework assignment to create a readme using the command line
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -15,19 +15,19 @@
    This app does not inquirer
 
   ## Usage
-  This app can be used to It is used to generate a readme for projects
+  This app can be used to It can be used to generate a readme for projects
 
   
   
 
   ## Contributions
-  bholt7
+  https://github.com/bholt7
 
   ## Test
-   node js
+   node js 
 
   ## Contact
- bholt7 
+ https://github.com/bholt7 
 
 
 
