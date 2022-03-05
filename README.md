@@ -1,7 +1,7 @@
-# undefined
+# ReadMe generator
 
   ## Description:
-  undefined
+  This assignment was to create a readme generator using the command line
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -12,22 +12,22 @@
   * [contact](#Contact)
 
   ## Installation
-   This app does notundefined
+   This app does not inquirer
 
   ## Usage
-  This app can be used toundefined
+  This app can be used to It is used to generate a readme for projects
 
-  undefined
-  undefined
+  
+  
 
   ## Contributions
-  undefined
+  bholt7
 
   ## Test
-   undefined
+   node js
 
   ## Contact
- undefined 
+ bholt7 
 
 
 

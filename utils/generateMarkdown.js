@@ -24,23 +24,27 @@ function renderLicenseLink(data) {
   }
   if (licenseType === "ISC") {
     licenseInfo = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`
+  } else {
+    return "";
   }
-}
+} 
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   if(data.license) {
     return `##license`
+  } else {
+    return "";
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.Title}
 
   ## Description:
-  ${data.description}
+  ${data.Description}
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -51,22 +55,22 @@ function generateMarkdown(data) {
   * [contact](#Contact)
 
   ## Installation
-   This app does not${data.installation}
+   This app does not ${data.Install}
 
   ## Usage
-  This app can be used to${data.usage}
+  This app can be used to ${data.Usage}
 
   ${renderLicenseSection(data)}
   ${renderLicenseLink(data)}
 
   ## Contributions
-  ${data.contributions}
+  ${data.Contributions}
 
   ## Test
-   ${data.test}
+   ${data.Test}
 
   ## Contact
- ${data.contact} 
+ ${data.Contact} 
 
 
 

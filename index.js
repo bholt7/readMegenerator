@@ -5,6 +5,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
+    // creating the prompt questions that will be presented in the terminal
     {
         type: "input",
         message: "What is the title of your project?",
