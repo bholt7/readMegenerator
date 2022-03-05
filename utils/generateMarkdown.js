@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(data) {
   if (data.license) {
     return `![Badge](https://img.shields.io/badge/license-${data.license}-orange)`
   } else {
@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+function renderLicenseLink(data) {
   const licenseType = (data.license);
   if (licenseType === "MIT") {
     licenseInfo = `[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)]`
@@ -29,7 +29,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(data) {
   if(data.license) {
     return `##license`
   }
@@ -39,35 +39,34 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description:
   ${data.description}
-  ##description:
 
   ## Table of Contents
-  -[installation](#installation)
-  -[usage](#usage)
-  -[license](#license)
-  -[contributions](#contributions)
-  -[test](#test)
-  -[contact](#contact)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributions](#Contributions)
+  * [test](#Test)
+  * [contact](#Contact)
 
-  ##installation
-  ${data.installation}
+  ## Installation
+   This app does not${data.installation}
 
-  ##usage
-  ${data.usage}
+  ## Usage
+  This app can be used to${data.usage}
 
   ${renderLicenseSection(data)}
   ${renderLicenseLink(data)}
 
-  ##contributions
+  ## Contributions
   ${data.contributions}
 
-  ##test
-  ${data.test}
+  ## Test
+   ${data.test}
 
-  ##contact
-  ${data.contact}
-  github : 
+  ## Contact
+ ${data.contact} 
 
 
 
