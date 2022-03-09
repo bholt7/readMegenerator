@@ -12,10 +12,10 @@
   * [contact](#Contact)
 
   ## Installation
-   This app does not inquirer and jest
+    inquirer and jest
 
   ## Usage
-  This app can be used to This can be used to create a roster for a cooperate environment
+  This can be used to create a roster for a cooperate environment
 
   
   
