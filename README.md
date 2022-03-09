@@ -1,7 +1,7 @@
-# README Generator
+# Team Generator
 
   ## Description:
-  This project is a homework assignment to create a readme using the command line
+  This is a homework assignment that generates an html document based on node js input
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -12,10 +12,10 @@
   * [contact](#Contact)
 
   ## Installation
-   This app does not inquirer
+   This app does not inquirer and jest
 
   ## Usage
-  This app can be used to It can be used to generate a readme for projects
+  This app can be used to This can be used to create a roster for a cooperate environment
 
   
   
